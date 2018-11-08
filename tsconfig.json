@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015", "es6"],
+    "allowJs": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "removeComments": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "noUnusedLocals": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

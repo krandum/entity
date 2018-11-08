@@ -1,0 +1,123 @@
+{
+  "maxDepth": 3,
+  "outerRingRatio": 0.94,
+  "ringShrinkRatio": 2.0,
+  "nodeShrinkRatio": 1.5,
+  "data": {
+    "name": "R",
+    "description": "Root description",
+    "click": 0,
+    "depth": 0,
+    "children": [
+      {
+        "name": "a",
+        "description": "a description",
+        "click": 0,
+        "depth": 1,
+        "children": [
+          {
+            "name": "a1",
+            "description": "a1 description",
+            "click": 0,
+            "depth": 2,
+            "children": []
+          },
+          {
+            "name": "a2",
+            "description": "a2 description",
+            "click": 4,
+            "depth": 2,
+            "children": [
+              {
+                "name": "a21",
+                "description": "a21 description",
+                "click": 0,
+                "depth": 3,
+                "children": []
+              },
+              {
+                "name": "a22",
+                "description": "a22 description",
+                "click": 4,
+                "depth": 3,
+                "children": []
+              },
+              {
+                "name": "a23",
+                "description": "a23 description",
+                "click": 8,
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "a3",
+            "description": "a3 description",
+            "click": 8,
+            "depth": 2,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "b",
+        "description": "b description",
+        "click": 4,
+        "depth": 1,
+        "children": [
+          {
+            "name": "b1",
+            "description": "b1 description",
+            "click": 0,
+            "depth": 2,
+            "children": [
+              {
+                "name": "b11",
+                "description": "b11 description",
+                "click": 0,
+                "depth": 3,
+                "children": []
+              },
+              {
+                "name": "b12",
+                "description": "b12 description",
+                "click": 4,
+                "depth": 3,
+                "children": []
+              },
+              {
+                "name": "b13",
+                "description": "b13 description",
+                "click": 8,
+                "depth": 3,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "b2",
+            "description": "b2 description",
+            "click": 4,
+            "depth": 2,
+            "children": []
+          },
+          {
+            "name": "b3",
+            "description": "b3 description",
+            "click": 8,
+            "depth": 2,
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "c",
+        "description": "c description",
+        "click": 8,
+        "depth": 1,
+        "children": []
+      }
+    ]
+  }
+}
